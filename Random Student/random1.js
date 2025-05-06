@@ -133,9 +133,8 @@ function wheel() {
         let p = box[m];
         let z=colors[n];
         
-        //console.log(p);
         p.style.backgroundColor =z; 
-        //console.log("Color changed for element:", p);
+       
        
     }, 100); }
 wheel();
@@ -159,7 +158,6 @@ btn1.addEventListener("click", function () {
                 let m = `Selected Student: ${studentName} (${studentId})`;
                 console.log(m);
                 main6.textContent=`Selected Student: ${studentName} (${studentId})`;
-
                 break;
             case "B":
                 randomIndex = randB();
